@@ -1,0 +1,6 @@
+"use strict";(self["webpackChunkJCU"]=self["webpackChunkJCU"]||[]).push([[5846],{5846:function(e,n,t){t.r(n),t.d(n,{startFocusVisible:function(){return c}});
+/*!
+ * (C) Ionic http://ionicframework.com - MIT License
+ */
+var o="ion-focused",s="ion-focusable",r=["Tab","ArrowDown","Space","Escape"," ","Shift","Enter","ArrowLeft","ArrowRight","ArrowUp","Home","End"],c=function(e){var n=[],t=!0,c=e?e.shadowRoot:document,i=e||document.body,u=function(e){n.forEach((function(e){return e.classList.remove(o)})),e.forEach((function(e){return e.classList.add(o)})),n=e},a=function(){t=!1,u([])},d=function(e){t=r.includes(e.key),t||u([])},f=function(e){if(t&&e.composedPath){var n=e.composedPath().filter((function(e){return!!e.classList&&e.classList.contains(s)}));u(n)}},v=function(){c.activeElement===i&&u([])};c.addEventListener("keydown",d),c.addEventListener("focusin",f),c.addEventListener("focusout",v),c.addEventListener("touchstart",a),c.addEventListener("mousedown",a);var E=function(){c.removeEventListener("keydown",d),c.removeEventListener("focusin",f),c.removeEventListener("focusout",v),c.removeEventListener("touchstart",a),c.removeEventListener("mousedown",a)};return{destroy:E,setFocus:u}}}}]);
+//# sourceMappingURL=5846.14f1e602.js.map
